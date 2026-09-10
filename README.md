@@ -1,10 +1,8 @@
 # Campus Cart
 
-A beginner GitHub collaboration project by **Prajusha Subedi** and **Salona Rijal**.
-
 This is a small e-commerce website built with HTML, CSS, and JavaScript. We used beginner Git commands: clone, branch, add, commit, push, pull, and merge.
 
-## Team
+Team Members
 
 - Prajusha Subedi
 - Salona Rijal
@@ -27,32 +25,32 @@ open index.html
 ## Git commands we used
 
 ```bash
-# copy the project from GitHub
+
 git clone https://github.com/salonarijal2006-hash/Ecommerce.git
 
-# go into the folder
+To go into the folder
 cd Ecommerce
 
-# get the latest code
+Now, get the latest code
 git pull
 
-# make your own branch
+Now, make your own branch
 git checkout -b prajusha/homepage
 
-# save files
+To save files
 git add .
 git commit -m "Add Campus Cart homepage"
 
-# send your branch to GitHub
+send your branch to GitHub
 git push -u origin prajusha/homepage
 
-# switch back to main
+switch back to main
 git checkout main
 
-# merge your branch into main
+merge your branch into main
 git merge prajusha/homepage
 
-# send main to GitHub
+send main to GitHub
 git push origin main
 ```
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Cart</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="index.html">Campus Cart</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="#products">Shop</a>
+    </nav>
+    <button class="cart-btn" id="cartBtn" type="button">Cart (<span id="cartCount">0</span>)</button>
+  </header>
+
+  <section class="hero">
+    <div>
+      <p class="eyebrow">GitHub collaboration project</p>
+      <h1>Simple campus shopping, built together.</h1>
+      <p>Handmade notebooks, snacks, and study kits from Prajusha and Salona.</p>
+      <a class="primary" href="#products">Browse products</a>
+    </div>
+  </section>
+
+  <main id="products" class="products">
+    <h2>Featured products</h2>
+    <div class="grid" id="productGrid"></div>
+  </main>
+
+  <aside class="cart-panel" id="cartPanel" hidden>
+    <h3>Your cart</h3>
+    <ul id="cartItems"></ul>
+    <p class="total">Total: Rs. <span id="cartTotal">0</span></p>
+    <button id="closeCart" type="button">Close</button>
+  </aside>
+
+  <footer>
+    <p>Campus Cart · Prajusha Subedi &amp; Salona Rijal</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

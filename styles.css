@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #1f1a16;
+  background: #f6efe6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 8%;
+  background: #1f1a16;
+  color: #f6efe6;
+}
+
+.logo {
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.nav nav {
+  display: flex;
+  gap: 20px;
+}
+
+.cart-btn,
+.primary,
+#closeCart {
+  border: 0;
+  background: #c45c26;
+  color: #fff;
+  padding: 10px 16px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.hero,
+.products,
+.about {
+  padding: 48px 8%;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.8rem;
+  color: #7a4a2d;
+}
+
+h1 {
+  max-width: 12ch;
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #e4d8c8;
+}
+
+.card button {
+  margin-top: 12px;
+  border: 0;
+  background: #1f1a16;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.team article,
+.cart-panel {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #e4d8c8;
+}
+
+.cart-panel {
+  position: fixed;
+  right: 16px;
+  top: 80px;
+  width: min(320px, 90vw);
+}
+
+footer {
+  padding: 24px 8%;
+  background: #1f1a16;
+  color: #f6efe6;
+}
